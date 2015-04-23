@@ -8,7 +8,7 @@
   Your nw-folder is around **20M**
 ## Installation:
 
-* Put appropriate binary in your **NW folder**(where package json resides). Put also ui folder there. 
+* Put appropriate binary in your **NW folder**(where package json resides). Put also **nw-sulfur-ui** folder there. 
 * Put these into your package json:
 ```json
   "sulfur-url":{
@@ -18,8 +18,8 @@
     "lin64":"http://dl.nwjs.io/v0.11.0/node-webkit-v0.11.0-linux-x64.tar.gz"
   }
 ```
-* ...
-* PROFIT
+* Run it.
+
 
 ## What exactly does it do.
 1. Determines if you have to download NW.js
@@ -27,7 +27,7 @@
 3. If No:  Opens your app with NW binary.
 
 ## If You want custom progressbar:
-Go to ui folder, and hack around. It is a simple html page with css.
+Go to **nw-sulfur-ui** folder, and hack around. It is a simple html page with css.
 But keep in mind, that it opens on user default browser(it can be IE6)
 
 ### The more people package apps with nw-sulfur. The less users will have to download it

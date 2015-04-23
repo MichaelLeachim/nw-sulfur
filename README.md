@@ -1,9 +1,6 @@
 
 # NW SULFUR is a way to package your node webkit program
-
-[<img src="./data/">](http://google.com.au/)
-
-
+[<img src="./nw-sulfur-ui/other/sulfur_nwlabel.jpg">](./nw-sulfur-ui/other/sulfur_nwlabel.jpg)
 ## Why ?
 ### Before nw sulfur:
   Your nw folder with binaries is around **150M+**
@@ -11,8 +8,8 @@
   Your nw-folder is around **20M**
 ## Installation:
 
-1. Put appropriate binary in your **NW folder**(where package json resides). Put also ui folder there. 
-2. Put these into your package json:
+* Put appropriate binary in your **NW folder**(where package json resides). Put also ui folder there. 
+* Put these into your package json:
 ```json
   "sulfur-url":{
     "win32":"http://dl.nwjs.io/v0.11.0/node-webkit-v0.11.0-win-ia32.zip",
@@ -21,8 +18,8 @@
     "lin64":"http://dl.nwjs.io/v0.11.0/node-webkit-v0.11.0-linux-x64.tar.gz"
   }
 ```
-3. ...
-4. PROFIT
+* ...
+* PROFIT
 
 ## What exactly does it do.
 1. Determines if you have to download NW.js
@@ -42,13 +39,10 @@ But keep in mind, that it opens on user default browser(it can be IE6)
 
 Links:
 
-  * [win32]()
-  * [win64]()
-  * [lin32]()
-  * [lin64]()
-
-
-
+  * [win32](https://github.com/VbifRkbvjd/nw-sulfur/releases/download/alpha/nw-sulfur-windows-386.exe)
+  * [win64](https://github.com/VbifRkbvjd/nw-sulfur/releases/download/alpha/nw-sulfur-windows-amd64.exe)
+  * [lin32](https://github.com/VbifRkbvjd/nw-sulfur/releases/download/alpha/nw-sulfur-linux-386)
+  * [lin64](https://github.com/VbifRkbvjd/nw-sulfur/releases/download/alpha/nw-sulfur-linux-amd64)
 
 
 
